@@ -1,0 +1,34 @@
+config-version: 1.0
+
+language: eng
+
+playerdata:
+  purge-enabled: true
+  purge-time: 90 #After how long should playerdata be purged (in days)?
+  purge-file-if-using-mysql: false #Should the player file be deleted if MySQL is specified below?
+  #This will delete the player's file after they join and add to database. IMPORT PLAYERDATA BEFORE ENABLING THIS OR DATA WILL BE LOST!
+  
+datastorage:
+  type: FOLDER  #Can be FOLDER or MySQL
+  host: localhost #These sections only needed if MySQL is chosen
+  port: 3306
+  database: minecraft
+  username: root
+  password: Ilikepi
+  tableprefix: RCS_
+  
+  
+gameconfig:
+  timer: 30 #How long in minutes should survivalists have to survive?
+  
+#Controls economy prices
+economy:
+  kits:
+    upgradecost: #Tells how much money it costs for a player to upgrade a survivalist kit to one of these levels. Upgrade costs are same for ALL kits
+      2: 1000
+      3: 4000
+      4: 8000
+      
+monsters:
+  spawn:
+    phantom: true

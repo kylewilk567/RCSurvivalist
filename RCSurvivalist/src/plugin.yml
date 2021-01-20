@@ -1,0 +1,11 @@
+main: xyz.ravencraft.RCSurvivalist.Main
+name: RCSurvivalist
+version: 1.0
+author: kwilk
+api-version: 1.13
+depend: [MinigamesLobby, Vault]
+softdepend: [PlaceholderAPI]
+description: Custom Survivalist vs. Hunters plugin
+
+commands:
+  rcs:

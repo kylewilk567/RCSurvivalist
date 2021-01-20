@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/KyleWilkinson/Documents/FreshmanYearUofM/FirelineMC/JavaCoding/spigot-1.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KyleWilkinson/Documents/FreshmanYearUofM/FirelineMC/JavaCoding/PlaceholderAPI-2.10.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KyleWilkinson/Documents/RavenCraft/JavaCoding/worldedit-bukkit-7.2.0-beta-05 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/KyleWilkinson/Documents/RavenCraft/JavaCoding/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KyleWilkinson/Documents/RavenCraft/JavaCoding/MinigamesLobby.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
